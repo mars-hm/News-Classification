@@ -3,7 +3,7 @@ import joblib
 
 model=joblib.load("news-classification-model.pkl")
 
-news_labels={'tech':0, 'business':1, 'sport':2, 'entertainment':3, 'politics':4}
+news_labels={"0": "Technical", "1": "Business", "2" : "Sports", "3" : "Entertainment", "4" : "Politics"}
 
 st.title("News Classification")
 
